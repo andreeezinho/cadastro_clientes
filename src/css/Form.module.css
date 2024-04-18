@@ -106,7 +106,30 @@ input[type=number]::-webkit-inner-spin-button,
     }
 
 
-@media(max-width: 500px){
+/* CSS para as telas responsivas (vários dispositivos) */
+
+
+@media(max-width: 900px){
+    .container{
+        width: 95%;
+    }
+
+    .formDiv h1{
+        margin-top: 200px;
+    }
+
+    @media(max-height: 1300px){
+        .container{
+            height: 70%;
+        }
+
+        .formDiv h1{
+            margin-top: 90px;
+        }
+    }
+}
+
+@media(max-width: 650px){
     .container{
         flex-direction: column;
         width: 90%;
@@ -138,6 +161,32 @@ input[type=number]::-webkit-inner-spin-button,
 
     .formDiv form {
         position: relative;
-        margin-top: -50px;
+        margin-top: -80px;
+    }
+
+    .formDiv form input[type="number"], .formDiv form input[type="number"]{
+        margin: 30px 0 30px 0;
+    }
+
+    @media(max-height: 750px){
+        .container{
+            height: 85%;
+        }
+    }
+}
+
+@media(max-width: 1300px){
+    @media(max-width: 900px){
+        .container{
+            height: 90%;
+        }
+
+        .logoDiv img{
+            width: 60%;
+        }
+
+        .formDiv h1{
+            margin-top: 50px;
+        }
     }
 }

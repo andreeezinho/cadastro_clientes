@@ -37,7 +37,7 @@ function Formulario() {
 
             if(response.ok){
                 console.log("Dados enviados!")
-                console.log(FormData);
+                alert("Dados enviados!")
                 setFormData({nome: '', telefone: ''});
             }else{
                 alert("ERRO, dados não enviados");
