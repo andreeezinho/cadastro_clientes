@@ -36,9 +36,13 @@
     text-align: center;
 }
 
+.formDiv img{
+    display: none;
+}
+
 .formDiv h1{
     text-align: center;
-    text-wrap: nowrap;
+    text-wrap: wrap;
     font-size: 16px;
     margin-top: 50px;
     color: var(--principal-color);
@@ -100,3 +104,40 @@ input[type=number]::-webkit-inner-spin-button,
         -webkit-appearance: none;
         margin: 0;
     }
+
+
+@media(max-width: 500px){
+    .container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .logoDiv{
+        display: none;
+    }
+
+    .formDiv{
+        position: unset;
+        width: 100%;
+    }
+
+    .formDiv img{
+        display: inline-flex;
+        width: 40%;
+    }
+
+    .formDiv h1{
+        text-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .formDiv svg{
+        margin-top: 20px;
+        font-size: 38px;
+    }
+
+    .formDiv form {
+        position: relative;
+        margin-top: -50px;
+    }
+}
