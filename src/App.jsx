@@ -1,9 +1,16 @@
-import Form from "./components/Formulario";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Formulario from "./components/Formulario";
+import  Clientes from "./components/Clientes";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Formulario />} />
+          <Route exact path="/clientes" element={<Clientes />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

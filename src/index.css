@@ -9,4 +9,5 @@ html, body, #root{
   height: 100%;
   background-image: linear-gradient(to bottom right, #124ba7 ,#3c85ba);
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }

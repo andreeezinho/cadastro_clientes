@@ -1,0 +1,27 @@
+@import "../css/root.module.css";
+
+body{
+    width: 100%;
+}
+
+.container{
+    background-color: var(--other-color);
+    width: 70%;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.container tr{
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.tabela td{
+    width: 100%;
+    background-color: var(--other-color);
+    padding: 15px;
+    border: 1px solid var(--secondary-color);
+}
