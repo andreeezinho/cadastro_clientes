@@ -1,6 +1,26 @@
 {
   "clientes": [
     {
+      "id": "c2b2",
+      "nome": "André",
+      "telefone": "75991164106"
+    },
+    {
+      "id": "51e5",
+      "nome": "Marcelo",
+      "telefone": "75991866089"
+    },
+    {
+      "id": "4ad4",
+      "nome": "Stephane",
+      "telefone": "75991103710"
+    },
+    {
+      "id": "96e3",
+      "nome": "Clícia",
+      "telefone": "75992029026"
+    },
+    {
       "nome": "Geórgia",
       "telefone": 71992695305,
       "id": "8bb1"

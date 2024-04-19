@@ -61,6 +61,7 @@ function Clientes() {
                             <td>{cliente.nome}</td>
                             <td>{cliente.telefone}</td>
                         </tr>
+                        
                     ))
                 ) : (
                     ///mensagem se nao tiver nada para exibir
