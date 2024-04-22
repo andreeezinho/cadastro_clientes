@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react';
+import { FaUsers } from 'react-icons/fa';
 import styles from "../css/Clientes.module.css";
 
 function Clientes() {
@@ -47,26 +48,29 @@ function Clientes() {
     }, [])
 
     return(
+        
             <div className={styles.container}>
-                <tr>
+                <h2><FaUsers /> Clientes Cadastrados: {dados.length}</h2>
+                <table className={styles.tabela}>
+                <tr className={styles.titulo}>
                     <td>Nome</td>
                     <td>Telefone</td>
                 </tr>
 
-               {  
-                ///renderiza os dados se tiver um ou mais
-                dados.length > 0 ? (
-                    dados.map((cliente, index) => (
-                        <tr className={styles.tabela} key={index}>
-                            <td>{cliente.nome}</td>
-                            <td>{cliente.telefone}</td>
-                        </tr>
-                        
-                    ))
-                ) : (
-                    ///mensagem se nao tiver nada para exibir
-                    <p>Clientes não registrados</p>
+                {  
+                    ///renderiza os dados se tiver um ou mais
+                    dados.length > 0 ? (
+                        dados.map((cliente, index) => (
+                            <tr className={styles.tabela} key={index}>
+                                <td>{cliente.nome}</td>
+                                <td>{cliente.telefone}</td>
+                            </tr>
+                        ))
+                    ) : (
+                        ///mensagem se nao tiver nada para exibir
+                        <p>Clientes não registrados :/</p>
                 )}
+               </table>
             </div>
     )
 }

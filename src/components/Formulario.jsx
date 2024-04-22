@@ -63,11 +63,11 @@ function Formulario() {
                 <FaUser />
                 <form onSubmit={handleSubmit}>
                     <div>
-                        <Input type="text" placeholder="Insira o nome do cliente aqui" name="nome" value={FormData.nome} onChange={handleChange} required/>
+                        <Input type="text" placeholder="Insira o seu nome" name="nome" value={FormData.nome} onChange={handleChange} required/>
                     </div>
                     
                     <div>
-                        <Input type="number" placeholder="Insira o telefone do cliente aqui" name="telefone" value={FormData.telefone} onChange={handleChange} required />
+                        <Input type="number" placeholder="Insira o seu telefone" name="telefone" value={FormData.telefone} onChange={handleChange} required />
                     </div>
                     
                     <div>
