@@ -1,5 +1,3 @@
----COMERCIAL STEPHANE---
-
 feito por: andreeezinho
 Github: https://github.com/andreeezinho
 
@@ -10,6 +8,7 @@ Github: https://github.com/andreeezinho
         ##npm start
 
     Assim que a página iniciar, é necessário iniciar o banco de dados. O banco de dados também está rodando localmente.
+    O 
     No diretório do projeto, execute o comando:
         ##npm run backend
 

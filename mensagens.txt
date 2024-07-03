@@ -1,8 +1,0 @@
-Boa noite {$pessoa}, tudo bem?
-{carrinho supermecado} Venha aproveitar nossas ofertas!
-
-{emoji de atenção} (Ofertas válidas até durar o estoque)
-
-Venha aproveitar o Megaofertaço! Uma seleção de ofertas especiais para deixar seu final de semana ainda melhor! {emoji coração azul}    
-
-*Adicione nosso número aos seus contatos e continue recebendo nossas ofertas!*

@@ -28,7 +28,7 @@ function Formulario() {
         e.preventDefault();
 
         try{
-            const response = await fetch('http://192.168.100.161:5000/clientes', {
+            const response = await fetch('http://localhost:5000/clientes', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
